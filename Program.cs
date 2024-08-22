@@ -13,7 +13,7 @@ hospedes.Add(p1);
 hospedes.Add(p2);
 
 // Cria a suíte
-Suite suite = new Suite(tipoSuite: "Master", capacidade: 6, valorDiaria: 200);
+Suite suite = new Suite(tipoSuite: "Premium", capacidade: 3, valorDiaria: 30);
 
 // Cria uma nova reserva, passando a suíte e os hóspedes
 Reserva reserva = new Reserva(diasReservados: 10);
